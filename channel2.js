@@ -21,9 +21,10 @@ var jwDefaults = {
   "height": 360,
   "logo": {
   "file": "https://3.bp.blogspot.com/-OPpWHF1HYWI/WlKgX0iRJzI/AAAAAAAAAG0/HZqkUCa9ZL4HCgJ2xE0-zp44K0D0DXNLACLcBGAs/s1600/StreamTos.png",
-  "hide": true,
+  "hide": false,
   "link": "",
-  "margin": "60", 
+  "margin-top": "20", 
+    "margin-right": "40", 
   "position": "top-right"
   },
   "mute": false,

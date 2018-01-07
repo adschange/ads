@@ -20,7 +20,7 @@ var jwDefaults = {
   "flashplayer": "//ssl.p.jwpcdn.com/player/v/8.0.11/jwplayer.flash.swf",
   "height": 360,
   "logo": {
-  "file": "https://4.bp.blogspot.com/-ibpTCtM2-hw/Wk_X-Z3x8lI/AAAAAAAAAGY/DMnx92WMXbMu8wJS8QsrX6KPBUQH9d6PACLcBGAs/s1600/Stream%2BTos.png",
+  "file": "https://3.bp.blogspot.com/-OPpWHF1HYWI/WlKgX0iRJzI/AAAAAAAAAG0/HZqkUCa9ZL4HCgJ2xE0-zp44K0D0DXNLACLcBGAs/s1600/StreamTos.png",
   "hide": true,
   "link": "",
   "margin": "60", 

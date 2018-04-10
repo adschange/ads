@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<HTML lang="ar">
+<head>
+<meta charset="utf-8">
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<link rel="stylesheet" type="text/css" href="file:///android_asset/oke.css" />
+<style>
+
+/* main */ 
+body{font-family:Segoe UI;color:#000;background:none repeat scroll 0 0 #F7FCE3;}
+#wrap{width:auto;max-width:600px;background:none repeat scroll 0 0 #F7FCE3;margin-right:auto;margin-left:auto;padding:0px;}
+
+/* font */ 
+@font-face{font-family: 'KFGQPC\ Uthman\ Taha\ Naskh, KFGQPC_Naskh'; src: url('fonts/Uthman.OTF');}
+@font-face{font-family: 'adobe arabic'; src: url('fonts/AdobeArabic.TTF');}
+@font-face{font-family: 'Segoe UI'; src: url('fonts/segoeuil.TTF');}
+
+/* posting */
+.text{letter-spacing:1px;border-radius:5px;border:1px solid #929e63;margin: 5px 0px 5px 0px; padding:5px;}
+.hisab{text-align:center;padding:0px;margin-bottom:15px;}img{max-width:100%;height:100%;}br{line-height:10px;}
+.arabic{direction: rtl;font-family:KFGQPC\ Uthman\ Taha\ Naskh, KFGQPC_Naskh;padding:5px;}
+.post{text-align:justify;padding:5px;}
+
+/* judul */
+.player{border-radius: 5px;border:1px solid #929e63;text-align:center;font-weight:bold;background:#d5e0a7;color:#000;padding:6px 5px 6px 5px;margin:0px 0px 5px 0px;}
+.playermenu{text-transform:uppercase;border-radius: 5px;border:1px solid #929e63;text-align:center;font-weight:bold;background:#d5e0a7;color:#000;padding:6px 5px 6px 5px;margin:15px 0px 5px 0px;}
+#menuzarab{border-radius: 5px;font-family:KFGQPC\ Uthman\ Taha\ Naskh, KFGQPC_Naskh;border:1px solid #929e63;text-align:center;font-weight:bold; background:#d5e0a7;color:#000; padding:6px 5px 6px 5px;margin:15px 0px 5px 0px;}
+
+/* footer */ 
+#footer{border-radius: 5px;border:1px solid #929e63;text-align:center;font-weight:bold;background:#d5e0a7;color:#000;padding:4px 5px 4px 5px;margin: 10px 0px 5px 0px;}
+
+/* table */ 
+table{width:100%;border-spacing:none;border-collapse:collapse;}td.tombar{background:none;border:none}
+
+/* table waris */
+td.waris{border:1px solid #929e63;font-weight:bold;width:100%;text-align:center;background:#d5e0a7;}td.waris3{border:1px solid #929e63;width:33%;text-align:center;background:#d5e0a7;}td.waris23{border:1px solid #929e63;width:66%;text-align:center;background:#d5e0a7;}
+
+/* table sulamunairen */ 
+td{background:#FFFAF0;text-align:center;border:1px solid #098507;padding:2px 5px}
+tr.jah{font-family:adobe arabic;font-weight:bold;}
+td.none{border:none;background:none;}
+td.bottom{background:none;border:none;padding-bottom:17px}
+tr.harokat{font-family:adobe arabic;font-weight:bold;}
+td.daqo{text-align:right;font-weight:bold;}
+td.kode{font-family:adobe arabic;text-align:right;font-weight:bold;}li{margin: 5px 0px 4px -5px;}
+ol{margin: 5px 0px 0px -5px;}
+.AwalBulan{padding:4px 5px 4px 5px;margin:0px;text-align:center;border-radius:3px;background:#FFFAF0;color:#000;font-weight:bold;border:1px solid #098507;}
+
+/* home */
+#home{text-transform:uppercase;margin-bottom:15px;font-weight:bold;text-align:center;border-radius: 5px;border:1px solid #929e63;color:#000; background:#d5e0a7; padding:5px}
+
+/* menus */
+#tomhome{width:100%;margin-top:10px;}
+#tompost{width:100%;margin-top:10px;text-align:center;}
+#menuz{width:100%;margin-top:10px;direction: rtl;font-family:KFGQPC\ Uthman\ Taha\ Naskh, KFGQPC_Naskh;}
+#tomhome li,#tompost li,#menuz li{background:#FFFAF0;list-style: none;margin: 0px 0px 5px 0px;padding: 4px 8px 4px 8px; border:1px solid #098507;border-radius: 5px;}
+#tomhome li a, #tompost li a, #menuz li a, {text-decoration: none;color:#000}
+#tomhome li a:hover, #tomhome li:hover, #tompost li a:hover, #tompost li:hover,#menuz li a:hover, #menuz li:hover{text-decoration: none;background:#d5e0a7;color:#000}
+.tombut {display: inline-block;min-width: 100%;text-decoration: none;color:#000;}
+.tombut:hover {color:#000;}
+
+/* responsive */
+@media screen and (min-width:100px){#wrap{width: auto;padding:0px;}.arabic{font-size:20px;line-height:40px;}#menuzarab{font-size:20px;}#menuz{font-size:19px}tr.jah{font-size:10px;}tr.harokat,td.kode{font-size:15px;}#tompost,#footer,#tomhome, td.waris,td.waris3,td.waris23,.lembaga,.post,td.daqo{font-size:16px;}.playermenu,.player,.pesanten,.AwalBulan{font-size:16px;}.post,tr{line-height:28px}.alamat{font-size:13px}.hisab,td.daqo{font-size:13px}}
+
+@media screen and (min-width:300px){.arabic{font-size:3px;line-height:46px;}#menuzarab{font-size:23px}#menuz{font-size:22px}#wrap{width: auto;padding:0px;}tr.jah{font-size:13px;}tr.harokat,td.kode{font-size:16px;}#tompost,#footer,#tomhome, td.waris,td.waris3,td.waris23,.lembaga,.post,td.daqo{font-size:17px;}.playermenu,.player,.pesanten,.AwalBulan{font-size:17px;}.post,tr{line-height:29px}.alamat{font-size:14px}.hisab,td.daqo{font-size:14px}}
+
+@media screen and (min-width:350px){.arabic{font-size:25px;line-height:47px;}#menuzarab{font-size:23px}#menuz{font-size:22px}#wrap{width: auto;padding:0px;}tr.jah{font-size:13px;}tr.harokat,td.kode{font-size:16px;}#tompost,#footer,#tomhome, td.waris,td.waris3,td.waris23,.lembaga,.post,td.daqo{font-size:17px;}.playermenu,.player,.pesanten,.AwalBulan{font-size:17px;}.post,tr{line-height:29px}.alamat{font-size:14px}.hisab,td.daqo{font-size:14px}}
+
+@media screen and (min-width:400px){#wrap{width: auto;padding:0px;}.arabic{font-size:26px;line-height:48px;}#menuzarab{font-size:24px;}#menuz{font-size:23px}tr.jah{font-size:16px;}tr.harokat,td.kode{font-size:17px;}#tompost,#footer,#tomhome, td.waris,td.waris3,td.waris23,.lembaga,.post,td.daqo{font-size:18px;}.playermenu,.player,.pesanten,.AwalBulan{font-size:18px;}.post,tr{line-height:30px}.alamat{font-size:15px}.hisab,td.daqo{font-size:15px}}
+
+@media screen and (min-width:500px){#wrap{width: auto;padding:0px;}.arabic{font-size:27px;line-height:50px;}#menuzarab{font-size:25px}#menuz{font-size:24px}tr.jah{font-size:17px;}tr.harokat,td.kode{font-size:19px;}#tompost,#footer,#tomhome, td.waris,td.waris3,td.waris23,.lembaga,.post{font-size:19px;}.playermenu,.player,.pesanten,.AwalBulan{font-size:19px;}.post,tr{line-height:31px}.alamat{font-size:16px;}.hisab,td.daqo{font-size:16px}}
+
+@media screen and (min-width:600px){#wrap{width: auto;padding:0px;}.arabic{font-size:28px;line-height:55px;}#menuzarab{font-size:28px}#menuz{font-size:27px}tr.jah{font-size:18px;}tr.harokat,td.kode{font-size:22px;}#tompost,#footer,#tomhome,td.waris,td.waris3,td.waris23,.lembaga,.post{font-size:20px;}.playermenu,.player,.pesanten,.AwalBulan{font-size:20px;}.post,tr{line-height:32px}.alamat{font-size:17px}.hisab,td.daqo{font-size:17px}}
+
+</style>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='player'>Kumpulan Dua + Ziarah Kubur</div>
+<div id='tomhome'>
+<li><a class='tombut' href='file:///android_asset/ta/1.html'>Ziarah Kubur</a></li>
+<li><a class='tombut' href='file:///android_asset/ta/2.html'>Tawasshul</a></li>
+
+<li><a class='tombut' href='file:///android_asset/ta/3.html'>Wirid Tawasshul</a></li>
+<li><a class='tombut' href='file:///android_asset/ta/4.html'>Du`a Anu Kedah Diamalkeun</a></li>
+
+<li><a class='tombut' href='file:///android_asset/ta/5.html'>Du`a My</a></li>
+<li><a class='tombut' href='file:///android_asset/ta/6.html'>Du`a Nikah</a></li>
+</div>
+<div id='tompost'>
+<li><a class='tombut' href='file:///android_asset/main.html'>Main Home</a></li>
+</div>
+<div id='footer'>&#169;Hadjitas Al Madani</div></div></body></HTML></HTML>
